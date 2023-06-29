@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Dogs from "@/components/Dogs";
+import Stories from "@/components/Stories";
 import Contact from "@/components/Contact";
 import Questions from "@/components/Questions";
 
@@ -15,6 +16,9 @@ export default function Home() {
       </section>
       <section id="dogs">
         <Dogs />
+      </section>
+      <section id="stories">
+        <Stories />
       </section>
       <section id="questions">
         <Questions />
