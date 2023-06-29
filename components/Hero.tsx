@@ -29,9 +29,10 @@ export default function Hero() {
         className="opacity-100 object-cover"
         fill
       />
-      <h1 className="text-4xl sm:text-5xl md:text-6xl text-white z-10 text-center p-10">
-        <span>{text}</span>
-        <Cursor cursorColor="white" />
+      <h1 className="text-4xl sm:text-5xl md:text-7xl text-white z-10 text-center p-10">
+        {/* <span>{text}</span>
+        <Cursor cursorColor="white" /> */}
+        Just For Paws
       </h1>
     </div>
   );

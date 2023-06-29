@@ -66,10 +66,9 @@ export default function Dogs() {
       breed: "Mongrel",
       age: "8",
       hdb: true,
-      image:
-        "/dogs/asher.jpeg",
+      image: "/dogs/asher.jpeg",
       description:
-        "Calm, low energy, friendly, good on walks but don't like to walk too much",
+        "Asher, an alpha dog found in northern Singapore with devoted companion Ashley, is an intelligent, calm, and friendly canine. With excellent leash manners, he's a joy to walk. To provide the best for both Asher and Ashley, they must be rehomed together. Don't miss the opportunity to adopt this remarkable duo and experience the love and loyalty they bring.",
     },
     {
       id: 1,
@@ -79,17 +78,17 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/ashley.jpeg",
       description:
-        "Calm, low energy, shy. Will shy away from direct pats and leashing but good on walks.",
+        "Meet Ashley, a timid and gentle dog who was found roaming the northern part of Singapore alongside her faithful partner, Asher. Despite her shyness, Ashley is good on walks (best we've had in a long while!) and displays a gentle and quiet demeanor. She is a perfect companion for someone seeking a calm and loving presence. It's important to note that Ashley must be rehomed with her inseparable partner, Asher, to maintain their emotional well-being and provide them with a stable and happy life. Consider adopting this delightful duo and experience the bond and affection they share.",
     },
     {
       id: 2,
-      name: "Bently",
+      name: "Bentley",
       breed: "Mongrel",
       age: "?",
       hdb: false,
       image: "/dogs/bentley.jpeg",
       description:
-        "Friendly, medium energy, will tug slightly on walks and tends to nip when excitable.",
+        "Meet Bentley, a friendly and affectionate dog looking for a forever home. Bentley's enthusiasm sometimes gets the best of him, and he may nip when he's excited, so it's essential to provide him with guidance and positive reinforcement. During walks, Bentley might tug slightly on the leash, but with some training and patience, he will become an excellent walking companion. If you're seeking a loving and lively companion and are willing to work on training, Bentley could be the perfect addition to your family.",
     },
     {
       id: 3,
@@ -99,7 +98,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/charcoal.jpeg",
       description:
-        "Friendly, medium energy, sensitive to touches especially with new people. Generally unsure/scared of other dogs. Guards food with other dogs.",
+        "Charcoal, a friendly and loving dog, is seeking a home where she can be the center of attention. While she adores humans and are sensitive to touches, Charcoal can be cautious around other dogs, so she would thrive in a household without any other canines. Her intelligence shines through, although she has a habit of nipping that requires patience and a skilled handler. If you're an experienced dog owner who can provide the guidance and understanding Charcoal needs, you'll be rewarded with a devoted and loyal companion who will bring joy to your life.",
     },
     {
       id: 4,
@@ -109,7 +108,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/carrie.jpeg",
       description:
-        "Skittish, avoids touches and leashing but once leashed, walks well.",
+        "Carrie, was rescued alongside her mother, Cleo, and sister, Chloe. With her lovely big eyes, Carrie is an enchanting companion. However, she can be quite skittish and requires a patient and loving home. On walks, she can become anxious, so a calm and supportive handler would be ideal for her. With time, understanding, and a nurturing environment, Carrie has the potential to blossom into a loyal and devoted pet. If you're willing to provide the care and attention she needs, Carrie will reward you with endless love and gratitude.",
     },
     {
       id: 5,
@@ -119,7 +118,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/chloe.jpeg",
       description:
-        "Slightly skittish, will approach with food, generally okay on walks",
+        "Chloe, a young and energetic dog, was rescued alongside her mother, Cleo, and sister, Carrie. While she can be slightly skittish, Chloe walks well and shows potential for improvement. With time and patience, Chloe will warm up and become affectionate, forming a strong bond with her loving adoptive family. Her youthful energy will keep the household lively and active, making her an ideal companion for those seeking an adventurous and spirited canine companion. Consider opening your heart and home to Chloe and witness her transformation into a loyal and loving companion.",
     },
     {
       id: 6,
@@ -129,7 +128,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/cleo.jpeg",
       description:
-        "Quite skittish but will approach with food. Avoids touches and leashing. Will dart on walks and can be quite anxious.",
+        "Cleo, a gentle and responsible mother, was rescued with her daughters Chloe and Carrie. This shy but loving dog walks gracefully on a leash and takes great care of her two daughters during walks. Cleo's nurturing nature extends to mealtime, as she patiently waits for her daughters to eat before enjoying her own meal. Getting along well with other dogs, Cleo would be a wonderful addition to a quiet family seeking a loyal and affectionate companion. With time and a calm environment, Cleo will flourish, rewarding her adoptive family with unwavering love and companionship.",
     },
     {
       id: 7,
@@ -166,8 +165,7 @@ export default function Dogs() {
       breed: "Mongrel",
       age: "3",
       hdb: true,
-      image:
-        "/dogs/hugo.jpeg",
+      image: "/dogs/hugo.jpeg",
       description:
         "Medium energy, will approach with treats, will shy away from people, leashing and touches. Anxious on walks.",
     },
@@ -177,8 +175,7 @@ export default function Dogs() {
       breed: "Mongrel",
       age: "8",
       hdb: false,
-      image:
-        "/dogs/jordan.jpeg",
+      image: "/dogs/jordan.jpeg",
       description:
         "Friendly, medium energy, confident and walks well if he's willing to walk. Tend to hold his pee poo until on walks so likely can be grass trained in a home.",
     },
@@ -198,8 +195,7 @@ export default function Dogs() {
       breed: "Mongrel",
       age: "7",
       hdb: true,
-      image:
-        "/dogs/luna.jpeg",
+      image: "/dogs/luna.jpeg",
       description:
         "Very friendly, very food motivated. Medium energy, walks well on leash.",
     },
@@ -268,8 +264,7 @@ export default function Dogs() {
       breed: "Mongrel",
       age: "?",
       hdb: true,
-      image:
-        "/dogs/zita.jpeg",
+      image: "/dogs/zita.jpeg",
       description:
         "Medium energy, friendly, food motivated, good on walks but can be an escapist.",
     },
@@ -343,7 +338,7 @@ export default function Dogs() {
           >
             <div
               id="modal-box"
-              className="bg-white w-3/4 lg:w-10/12 h-3/4 max-w-lg lg:max-w-6xl max-h-lg flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between overflow-auto"
+              className="bg-white w-3/4 xl:w-10/12 h-3/4 max-w-lg xl:max-w-6xl max-h-lg flex flex-col xl:flex-row-reverse xl:items-center xl:justify-between overflow-auto"
             >
               <img
                 src={
@@ -352,9 +347,9 @@ export default function Dogs() {
                     : "/justforpaws_logo.png"
                 }
                 alt="Image of dog"
-                className="w-full lg:w-[35rem] h-[30rem] lg:h-full object-cover"
+                className="w-[35rem] object-cover"
               />
-              <div className="flex flex-col p-5 lg:px-8">
+              <div className="flex flex-col p-5 xl:px-8">
                 <h2 className="text-2xl font-bold mb-1">
                   {dogs[parseInt(dogId)].name}
                 </h2>
@@ -368,7 +363,11 @@ export default function Dogs() {
                   {dogs[parseInt(dogId)].description}
                 </p>
                 <div className="flex flex-row items-center text-sm">
-                  {dogs[parseInt(dogId)].hdb ? <CheckIcon className="mr-1 fill-[#3CB043]" /> : <ClearIcon className="mr-1 fill-[#D30000]"/>}
+                  {dogs[parseInt(dogId)].hdb ? (
+                    <CheckIcon className="mr-1 fill-[#3CB043]" />
+                  ) : (
+                    <ClearIcon className="mr-1 fill-[#D30000]" />
+                  )}
                   <h5>HDB approved</h5>
                 </div>
                 <Link href="#contact">
