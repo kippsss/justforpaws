@@ -15,7 +15,7 @@ export default function Stories() {
           <h2 className="text-4xl font-bold text-center">Our Stories</h2>
         </div>
         <div className="flex flex-col items-center border-solid border-2 max-h-[75vh] max-w-[50vh] overflow-auto">
-          <img src="justforpaws_logo.png" />
+          <img src="justforpaws_logo.png" alt="Adoption story"/>
           <div>
             <p>
               My wife, Yumi and I, have been truly blessed to have Woody as part
