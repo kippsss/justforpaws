@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 export default function Questions() {
   const questions = [
     {
+      id: "0",
       question: "What is the adoption process like?",
       answer: [
         "1. Contact us through our socials to indicate your interest.",
@@ -18,18 +19,21 @@ export default function Questions() {
       ],
     },
     {
+      id: "1",
       question: "I'm interested to adopt, what do I do now?",
       answer: [
         "Great to hear! Please reach out to us through our socials below and we will get back to you as soon as we can.",
       ],
     },
     {
+      id: "2",
       question: "I'd like to volunteer, how may I help?",
       answer: [
         "Please get in touch with us through our socials below, we'd love to have you aboard!",
       ],
     },
     {
+      id: "3",
       question:
         "I sent a message but did not receive a reply, what's going on?",
       answer: [
@@ -50,8 +54,8 @@ export default function Questions() {
           <h2 className="text-4xl font-bold text-center">FAQs</h2>
         </div>
         <Collapse.Group>
-          {questions.map((question, index) => (
-            <div key={index}>
+          {questions.map((question) => (
+            <div id={question.id} key={question.id}>
               <Collapse
                 title={question.question}
                 className="text-xl font-medium"
