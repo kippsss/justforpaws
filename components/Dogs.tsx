@@ -292,7 +292,6 @@ export default function Dogs() {
                   initial={{ scale: 1 }}
                   transition={{ ease: "easeOut", duration: 0.3 }}
                   whileHover={{ scale: 1.15 }}
-                  key={dog.name}
                   src={dog.image}
                   alt="Image of dog"
                   className="object-cover h-full w-full"
