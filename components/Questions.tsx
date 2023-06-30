@@ -20,13 +20,19 @@ export default function Questions() {
     {
       question: "I'm interested to adopt, what do I do now?",
       answer: [
-        "Great to hear! Please reach out to us through our socials below.",
+        "Great to hear! Please reach out to us through our socials below and we will get back to you as soon as we can!",
       ],
     },
     {
       question: "I'd like to volunteer, how may I help?",
       answer: [
         "Please get in touch with us through our socials below, we'd love to have you aboard!",
+      ],
+    },
+    {
+      question: "I sent a message but did not receive a reply, what's going on?",
+      answer: [
+        "We may have unintentionally missed your message (sorry!). Please feel free to give us a bump, or try another one of our socials.",
       ],
     },
   ];

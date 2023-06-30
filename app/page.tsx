@@ -17,9 +17,9 @@ export default function Home() {
       <section id="dogs">
         <Dogs />
       </section>
-      <section id="stories">
+      {/* <section id="stories">
         <Stories />
-      </section>
+      </section> */}
       <section id="questions">
         <Questions />
       </section>

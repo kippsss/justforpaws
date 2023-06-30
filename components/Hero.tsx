@@ -10,11 +10,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import Socials from "./Socials";
 
 export default function Hero() {
-  const [text, count] = useTypewriter({
-    words: ["hi!", "we are Just For Paws!"],
-    loop: true,
-    delaySpeed: 1000,
-  });
+  // const [text, count] = useTypewriter({
+  //   words: ["hi!", "we are Just For Paws!"],
+  //   loop: true,
+  //   delaySpeed: 1000,
+  // });
 
   return (
     <div className="h-screen flex flex-col justify-center items-center relative">
@@ -29,7 +29,7 @@ export default function Hero() {
         className="opacity-100 object-cover"
         fill
       />
-      <h1 className="text-4xl sm:text-5xl md:text-7xl text-white z-10 text-center p-10">
+      <h1 className="text-6xl md:text-7xl text-white z-10 text-center p-10">
         {/* <span>{text}</span>
         <Cursor cursorColor="white" /> */}
         Just For Paws
