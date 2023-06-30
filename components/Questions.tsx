@@ -14,7 +14,7 @@ export default function Questions() {
         "4. Arrange a home visit and begin a 2-week home trial.",
         "5. Confirm adoption and sign relevant adoption papers.",
         "6. We will facilitate the arrangement of ADORE obedience training for you and a certified trainer (only for HDB homes).",
-        "7. Register ownership of your dog with AVS."
+        "7. Register ownership of your dog with AVS.",
       ],
     },
     {
@@ -30,7 +30,8 @@ export default function Questions() {
       ],
     },
     {
-      question: "I sent a message but did not receive a reply, what's going on?",
+      question:
+        "I sent a message but did not receive a reply, what's going on?",
       answer: [
         "We may have unintentionally missed your message (sorry!). Please feel free to give us a bump, or try another one of our socials.",
       ],
@@ -50,11 +51,16 @@ export default function Questions() {
         </div>
         <Collapse.Group>
           {questions.map((question, index) => (
-            <Collapse key={index} title={question.question} className="text-xl font-medium">
-              {question.answer.map((line) => (
-                <Text className="font-normal">{line}</Text>
-              ))}
-            </Collapse>
+            <div key={index}>
+              <Collapse
+                title={question.question}
+                className="text-xl font-medium"
+              >
+                {question.answer.map((line) => (
+                  <Text className="font-normal">{line}</Text>
+                ))}
+              </Collapse>
+            </div>
           ))}
         </Collapse.Group>
       </motion.div>
