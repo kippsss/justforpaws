@@ -5,7 +5,7 @@ import Socials from "./Socials";
 export default function Contact() {
 
   return (
-    <div className="flex flex-col items-center px-16 pt-10 pb-16 bg-[#FFFFFF] ">
+    <div className="flex flex-col items-center px-16 pt-10 pb-24 bg-[#FFFFFF] ">
       <div className="mt-10 mb-14 max-w-lg">
         <h2 className="text-4xl font-bold text-center mb-8">Get In Touch</h2>
         <h4 className="text-xl text-center">
