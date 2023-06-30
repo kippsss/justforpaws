@@ -118,7 +118,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/chloe.jpeg",
       description:
-        "Chloe, a young and energetic dog, was rescued alongside her mother, Cleo, and sister, Carrie. While she can be slightly skittish, Chloe walks well and shows potential for improvement. With time and patience, Chloe will warm up and become affectionate, forming a strong bond with her loving adoptive family. Her youthful energy will keep the household lively and active, making her an ideal companion for those seeking an adventurous and spirited canine companion. Consider opening your heart and home to Chloe and witness her transformation into a loyal and loving companion.",
+        "Young and energetic Chloe was rescued alongside her mother, Cleo, and sister, Carrie. While she can be slightly skittish, Chloe walks well and shows potential for improvement. With time and patience, Chloe will warm up and become affectionate, forming a strong bond with her loving adoptive family. Her youthful energy will keep the household lively and active, making her an ideal companion for those seeking an adventurous and spirited canine companion. Consider opening your heart and home to Chloe and witness her transformation into a loyal and loving companion.",
     },
     {
       id: 6,
@@ -138,7 +138,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/coco.jpeg",
       description:
-        "Shy, low energy, will avoid direct pats and leashing but good on walks.",
+        "Coco has proudly fulfilled her role as a nurturing mother to two adorable puppies, both of whom have found their own loving families. However, Coco herself remains overlooked due to her skittish nature, making it challenging for her to find a new home. She tends to hide from visitors, but once she warms up, her gentle and affectionate side shines through. Coco is a social butterfly when it comes to other dogs and would thrive in a home with canine companions. Help Coco discover the happiness she deserves by welcoming her into your loving home.",
     },
     {
       id: 8,
@@ -157,7 +157,7 @@ export default function Dogs() {
       hdb: false,
       image: "/dogs/dunno.jpeg",
       description:
-        "Medium energy, good on walks, more on the dominant/alpha side. Might redirect to handler when have scuffle with other dogs.",
+        "Introducing Dunno, this big-hearted canine bears resemblance to the iconic Scooby-Doo. Dunno's size may be impressive, but his leash manners are surprisingly good, making him an ideal walking companion. With his gentle nature and easygoing personality, Dunno is well-suited for smaller families seeking a loyal and devoted four-legged friend. Open your hearts and home to Dunno, and together you can create unforgettable adventures and cherish a lifetime of love and companionship.",
     },
     {
       id: 10,
@@ -167,7 +167,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/hugo.jpeg",
       description:
-        "Medium energy, will approach with treats, will shy away from people, leashing and touches. Anxious on walks.",
+        "Despite his age, Hugo retains a youthful appearance and boasts robust health. He was discovered wandering the streets alongside his companion, Pepper, and together they endured the heartbreak of losing their puppies to the parvovirus (all but one, who was successfully rehomed). While Hugo and Pepper's journey has been difficult, Hugo's resilience shines through and he holds on to hope and the capacity to form deep bonds. With his enduring spirit, Hugo is ready to bring joy and companionship to a forever family that will cherish him unconditionally.",
     },
     {
       id: 11,
@@ -177,7 +177,7 @@ export default function Dogs() {
       hdb: false,
       image: "/dogs/jordan.jpeg",
       description:
-        "Friendly, medium energy, confident and walks well if he's willing to walk. Tend to hold his pee poo until on walks so likely can be grass trained in a home.",
+        "Jordan's natural intelligence established him as an alpha in the Sengei Tengah area. His distinctive curled hair adds to his unique charm. Initially captured under the Trap, Neuter, Release (TNR) programme, Jordan was deemed suitable for a home environment and was placed under our care in hopes of finding a family who would take him in. While Jordan thrives with larger dogs, he is best suited for a home without small dogs.",
     },
     {
       id: 12,
@@ -187,7 +187,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/leo.jpeg",
       description:
-        "Medium energy, will approach with treats, will shy away slightly with touches and leashing but good on walks.",
+        "Leo was roaming the streets in the central area in Singapore before he was rescued. This handsome, long haired senior dog is healthy and independent, and we've had him for almost 2 years in the shelter. It's time for him to retire and enjoy the warmth of a loving home. If you are prepared to open your hearts to love Leo in the golden years of his retirement, please reach out to us. ",
     },
     {
       id: 13,
@@ -197,7 +197,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/luna.jpeg",
       description:
-        "Very friendly, very food motivated. Medium energy, walks well on leash.",
+        "Luna holds the honorable title of being Stitch's mother, having been rescued alongside her adorable pup. This sweet canine companion excels in leash walking, making strolls a delightful experience. Luna has a calm and laid-back nature, preferring low-energy activities and relishing in moments of relaxation. If you're looking for a loyal and easygoing companion to enjoy quiet moments with, Luna is the perfect match. Embrace Luna's gentle spirit and give her the loving home she deserves.",
     },
     {
       id: 14,
@@ -207,7 +207,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/nana.jpeg",
       description:
-        "Medium to low energy, shys away from people, touches and leashing but walks very well on leash. Just need to give her adequate space. Doesn't get too easily spooked on walks but is wary when someone is behind her.",
+        "Nana may be a bit skittish, but she shines when it comes to leash walking, making outdoor adventures a joy. However, Nana has experienced some challenges with other dogs, often finding herself the target of bullying. She yearns for a safe and nurturing environment where she can build her confidence and thrive. If you have the patience and dedication to help Nana overcome her fears and provide her with a loving space, she will reward you with unwavering loyalty and affection.",
     },
     {
       id: 15,
@@ -225,8 +225,7 @@ export default function Dogs() {
       age: "10",
       hdb: true,
       image: "/justforpaws_logo.png",
-      description:
-        "Medium energy, will approach with treats, generally tolerates pats and okay with leashing but might be reluctant to walk.",
+      description: "",
     },
     {
       id: 17,
@@ -236,7 +235,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/stitch.jpeg",
       description:
-        "Medium energy, shys away slightly from people, touches and leashing. Tends to tug abit on walks, slightly anxious.",
+        "Stitch earned her name due to a long gash on her neck that was discovered upon her rescue. Stitch longs for a caring family that will provide her with the healing, security, and unconditional love she deserves. With her unique story and unwavering spirit, Stitch is ready to weave herself into the hearts of those who will give her a second chance at happiness.",
     },
     {
       id: 18,
@@ -246,7 +245,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/whitney.jpeg",
       description:
-        "Medium energy, friendly and food motivated. Might be reluctant and protest on walks especially with people she's not familiar with.",
+        "Despite her siblings finding loving families, Whitney has remained in the shelter, patiently waiting for her turn. She is a mix of affection and skittishness, craving love and understanding. Whitney would flourish in a small family environment, where her unique personality can be nurtured with patience and exposure to new experiences.",
     },
     {
       id: 19,
@@ -256,7 +255,7 @@ export default function Dogs() {
       hdb: true,
       image: "/dogs/xiaohei.jpeg",
       description:
-        "Medium energy, generally friendly but can be sensitive to touches around his hind area. Good on walks.",
+        "With his affectionate nature, Xiao Hei will readily approach anyone with a wagging tail and a heart full of love. His unique physique is characterized by a short and stout body, complemented by soft fur. However, Xiao Hei harbors a fear of rain and thunder, seeking comfort and reassurance during storms. If you're looking for a loyal and cuddly companion who will shower you with affection and bring warmth to your home, Xiao Hei is the perfect match. Embrace this little bundle of love and provide him the security he longs for.",
     },
     {
       id: 20,
