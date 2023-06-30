@@ -10,8 +10,8 @@ export default function Questions() {
       answer: [
         "1. Contact us through our socials to indicate your interest.",
         "2. Complete an initial screening questionnaire.",
-        "3. Arrange visits to familiarisation.",
-        "4. Arrange a home visit and begin 2-week home trial.",
+        "3. Arrange visits for familiarisation.",
+        "4. Arrange a home visit and begin a 2-week home trial.",
         "5. Confirm adoption and sign relevant adoption papers.",
         "6. We will facilitate the arrangement of ADORE obedience training for you and a certified trainer (only for HDB homes).",
         "7. Register ownership of your dog with AVS."

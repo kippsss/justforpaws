@@ -338,7 +338,7 @@ export default function Dogs() {
           >
             <div
               id="modal-box"
-              className="bg-white w-3/4 xl:w-10/12 h-3/4 max-w-lg xl:max-w-6xl max-h-lg flex flex-col xl:flex-row-reverse xl:items-center xl:justify-between overflow-auto"
+              className="bg-white w-3/4 xl:w-10/12 h-3/4 max-h-[45rem] max-w-lg xl:max-w-6xl flex flex-col xl:flex-row-reverse xl:items-center xl:justify-between overflow-auto"
             >
               <img
                 src={
@@ -347,7 +347,7 @@ export default function Dogs() {
                     : "/justforpaws_logo.png"
                 }
                 alt="Image of dog"
-                className="w-[35rem] object-cover"
+                className="w-[35rem] h-auto xl:h-full xl:w-auto object-cover"
               />
               <div className="flex flex-col p-5 xl:px-8">
                 <h2 className="text-2xl font-bold mb-1">
