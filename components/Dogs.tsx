@@ -280,12 +280,12 @@ export default function Dogs() {
           <h2 className="text-4xl font-bold text-center">Our Dogs</h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 items-center">
-          {dogs.map((dog) => (
+          {dogs.map((dog, index) => (
             <div
               className="flex flex-col bg-[#FFFFFF] cursor-pointer max-w-sm"
               onClick={openModalHandler}
               id={dog.name}
-              key={dog.name}
+              key={index}
             >
               <div className="h-96 overflow-hidden">
                 <motion.img
