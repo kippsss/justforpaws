@@ -7,7 +7,11 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import { motion, AnimatePresence } from "framer-motion";
 
-type Props = { fill: string; classes: string; tooltip_placement: "top" | "bottom" };
+type Props = {
+  fill: string;
+  classes: string;
+  tooltip_placement: "top" | "bottom";
+};
 
 export default function Socials({ fill, classes, tooltip_placement }: Props) {
   const [modalOpen, setModalOpen] = React.useState(false);
@@ -32,8 +36,15 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
               scale: 0.8,
             }}
           >
-            <Tooltip content={"Telegram"} placement={tooltip_placement} hideArrow>
-              <TelegramIcon className="m-4 text-3xl" fontSize="inherit" sx={{ color: { fill } }} />
+            <Tooltip
+              content={"Telegram"}
+              placement={tooltip_placement}
+              hideArrow
+            >
+              <TelegramIcon
+                className="m-4"
+                sx={{ color: { fill }, width: 50, height: 50 }}
+              />
             </Tooltip>
           </motion.div>
         </button>
@@ -47,11 +58,12 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
               scale: 0.8,
             }}
           >
-            <Tooltip content={"Instagram"} placement={tooltip_placement} hideArrow>
-              <InstagramIcon
-                className="m-4 text-3xl" fontSize="inherit"
-                sx={{ color: { fill } }}
-              />
+            <Tooltip
+              content={"Instagram"}
+              placement={tooltip_placement}
+              hideArrow
+            >
+              <InstagramIcon className="m-4" sx={{ color: { fill } }} />
             </Tooltip>
           </motion.div>
         </Link>
@@ -62,8 +74,12 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
               scale: 0.8,
             }}
           >
-            <Tooltip content={"Facebook"} placement={tooltip_placement} hideArrow>
-              <FacebookIcon className="m-4 text-3xl" fontSize="inherit" sx={{ color: { fill } }} />
+            <Tooltip
+              content={"Facebook"}
+              placement={tooltip_placement}
+              hideArrow
+            >
+              <FacebookIcon className="m-4" sx={{ color: { fill } }} />
             </Tooltip>
           </motion.div>
         </Link>
