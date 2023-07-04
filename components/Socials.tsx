@@ -33,7 +33,7 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
             }}
           >
             <Tooltip content={"Telegram"} placement={tooltip_placement} hideArrow>
-              <TelegramIcon className="m-4 text-4xl" sx={{ color: { fill } }} />
+              <TelegramIcon className="m-4 text-3xl" fontSize="inherit" sx={{ color: { fill } }} />
             </Tooltip>
           </motion.div>
         </button>
@@ -49,7 +49,7 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
           >
             <Tooltip content={"Instagram"} placement={tooltip_placement} hideArrow>
               <InstagramIcon
-                className="m-4 text-4xl"
+                className="m-4 text-3xl" fontSize="inherit"
                 sx={{ color: { fill } }}
               />
             </Tooltip>
@@ -63,7 +63,7 @@ export default function Socials({ fill, classes, tooltip_placement }: Props) {
             }}
           >
             <Tooltip content={"Facebook"} placement={tooltip_placement} hideArrow>
-              <FacebookIcon className="m-4 text-4xl" sx={{ color: { fill } }} />
+              <FacebookIcon className="m-4 text-3xl" fontSize="inherit" sx={{ color: { fill } }} />
             </Tooltip>
           </motion.div>
         </Link>
